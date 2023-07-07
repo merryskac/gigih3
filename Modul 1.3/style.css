@@ -34,7 +34,15 @@ header{
   float: left;
   margin-right: 20px;
   padding-top: 10px;
-  color: #ababab
+  color: #ababab;
+  
+}
+a{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+a:hover{
+  color: white;
 }
 .search {
   float: left;
@@ -42,6 +50,14 @@ header{
   padding-right: 50px;
   padding-top: 20px;
   width: 30%;
+  display: flex;
+  position: relative;
+}
+.fa-search{
+  padding-left: 3px;
+  padding-top: 7px;
+  position: relative;
+  color: white;
 }
 .search input{
   padding: 5px 20px;
@@ -60,10 +76,14 @@ header{
   padding-top: 70px;
 }
 
+
 .container-songs{
   overflow-y: scroll;
   overflow-x: hidden;
   height: 500px;
+}
+.container-most{
+  padding-right: 40px;
 }
 .list-songs{
   background-color: #1f1f1fe1;
@@ -162,9 +182,16 @@ header{
 }
 
 .playlist-list{
+  display: flex;
   overflow-x: hidden;
   overflow-y: scroll;
   height: 250px;
+  flex-wrap: wrap;
+  
+}
+
+.playlists:hover{
+  background-color: #353535e1;
 }
 
 .playlist-container{
