@@ -1,10 +1,3 @@
-const akun = [
-  {email: "test@gmail.com",
-  pass: "abcdefg"},
-  {email: "halo@gmail.com",
-  pass: "123456"}
-]
-
 const checkEmail = (email)=>{
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
