@@ -1,0 +1,17 @@
+[
+  {
+    "id":"1",
+    "name":"NIKI",
+    "verified":true
+  },
+  {
+    "id":"2",
+    "name":"Rich Brian",
+    "verified":true
+  },
+  {
+    "id":"3",
+    "name":"Warren Hue",
+    "verified":false
+  }
+]
